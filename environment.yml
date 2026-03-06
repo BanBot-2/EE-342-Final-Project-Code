@@ -1,0 +1,22 @@
+name: ee_342_env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  # Base Python version (you can change this to 3.10 or 3.12 if needed)
+  - python=3.12
+  
+  # Core requested packages
+  - pytorch
+  - pandas
+  - numpy
+  - matplotlib
+  
+  # Required for your notebooks
+  - jupyter
+  
+  # Pip setup for any future packages not on Conda channels
+  - pip
+  - pip:
+    # - example-pip-package

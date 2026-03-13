@@ -12,6 +12,7 @@ dependencies:
   - pandas
   - numpy
   - matplotlib
+  - scikit-learn
   
   # Required for your notebooks
   - jupyter
